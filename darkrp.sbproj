@@ -22,7 +22,7 @@
     "PerMapRanking": false,
     "LeaderboardType": "None",
     "CsProjName": "",
-    "StartupScene": "scenes/minimal.scene",
+    "StartupScene": "Assets/scenes/minimal.scene",
     "LaunchMode": "QuickPlay",
     "ControlModes": {}
   }
