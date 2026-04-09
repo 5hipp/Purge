@@ -54,6 +54,7 @@ namespace GameSystems
 
 		protected override void OnStart()
 		{
+			JobProvider.Initialize();
 			chat = Scene.Directory.FindByName( "Screen" )?.First()?.Components.Get<Chat>();
 			if ( chat == null ) Log.Error( "Chat component not found" );
 

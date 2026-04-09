@@ -6,7 +6,7 @@ namespace GameSystems.Jobs
 		public static Dictionary<string, JobGroupResource> JobGroups { get; private set; } = new();
 
 		// On Start load all jobs
-		static JobProvider()
+		public static void Initialize()
 		{
 			Log.Info( "Loading groups..." );
 			// Get all JobGroup resources
