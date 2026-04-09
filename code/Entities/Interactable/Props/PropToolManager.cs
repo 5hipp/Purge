@@ -1,3 +1,4 @@
+using Sandbox.GameSystems.Player;
 using System;
 using Entity.Interactable.Props;
 using Utils;
