@@ -27,6 +27,7 @@ namespace GameSystems.Player
 
 		public Color Color { get; set; }
 
+		public UserGroup() {}
 		public UserGroup( string name, string displayName, PermissionLevel permissionLevel, Color color )
 		{
 			// No real reason. Just keeps it clean.
